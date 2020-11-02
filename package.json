@@ -1,0 +1,33 @@
+{
+  "name": "game-off-2020",
+  "version": "1.0.0",
+  "description": "My project for the itch.io Game Off 2020",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development serve --progress",
+    "prod": "webpack --mode production --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bennyville/game-off-2020.git"
+  },
+  "author": "Benny Peckruhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bennyville/game-off-2020/issues"
+  },
+  "homepage": "https://github.com/Bennyville/game-off-2020#readme",
+  "devDependencies": {
+    "expose-loader": "^1.0.1",
+    "file-loader": "^6.2.0",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.5",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "phaser": "^3.24.1"
+  }
+}
